@@ -1,0 +1,188 @@
+nav {
+  width: 100%;
+  position: relative;
+}
+nav div img {
+  width: 100%;
+}
+nav input {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff url(../image/index/seach.jpg) no-repeat 1rem center;
+  background-size: 1.5rem;
+  border: 0.1rem solid #9a9a9a;
+  width: 90%;
+  height: 3rem;
+  padding-left: 3rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #9a9a9a inset, 0.2rem 0.2rem 0.5rem 0.1rem #e1e0e0;
+}
+article {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+article .top {
+  width: 100%;
+  text-align: center;
+  background-color: #ff8a00;
+  height: 10rem;
+}
+article .top li {
+  float: left;
+  width: 25%;
+  color: #fff;
+}
+article .top li img {
+  width: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+article .middle {
+  width: 100%;
+}
+article .middle > div:nth-of-type(1) {
+  height: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+article .middle > div:nth-of-type(1) img {
+  width: 100%;
+  height: 100%;
+}
+article .middle .hot {
+  width: 100%;
+  height: 5rem;
+  background-color: #ff8a00;
+  color: #fff;
+}
+article .middle .hot div {
+  margin: 0rem 2rem;
+  padding: 1rem 0;
+}
+article .middle .hot div h3 {
+  font-size: 1.4rem;
+}
+article .middle .house {
+  background-color: #fff;
+}
+article .middle .house ul li {
+  margin: 0rem 1.5rem;
+  padding: 2rem 0;
+  border-bottom: 0.2rem solid #ff1616;
+}
+article .middle .house ul li > div {
+  float: left;
+}
+article .middle .house ul li > div img {
+  width: 7rem;
+}
+article .middle .house ul li .right {
+  width: 21rem;
+  margin-left: 1rem;
+}
+article .middle .house ul li .right h1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 0.3rem;
+  margin-top: -0.7rem;
+}
+article .middle .house ul li .right div p {
+  float: left;
+}
+article .middle .house ul li .right div span {
+  float: right;
+}
+article .middle .house ul li .right div:nth-of-type(1) {
+  color: #1d1d1d;
+}
+article .middle .house ul li .right div:nth-of-type(1) span {
+  color: #ff9315;
+}
+article .middle .house ul li .right div:nth-of-type(2) {
+  color: #909090;
+  margin: 0.7rem 0;
+}
+article .middle .house ul li .right > span {
+  background-color: #f4f7f9;
+  color: #8fa3b6;
+  padding: 0.3rem;
+}
+article .middle .house ul li:last-of-type {
+  border: none;
+}
+article .bottom {
+  margin-top: 0.5rem;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+article .bottom dl {
+  float: left;
+  width: 50%;
+}
+article .bottom dl dt {
+  margin: 1rem auto 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ff8a00;
+  font-size: 1.6rem;
+  color: #787878;
+  text-align: center;
+}
+article .bottom dl dt:hover {
+  color: #ff8a00;
+  border-bottom: 3px solid #ff8a00;
+}
+article .bottom dl dd {
+  color: #6d6d6d;
+  margin: 1rem 2rem;
+}
+.nian {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem;
+}
+.nian ul {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.nian ul li {
+  float: left;
+  line-height: 3.5rem;
+  margin-left: 2rem;
+}
+.nian ul li img {
+  width: 2.5rem;
+  margin-left: 1rem;
+}
+.nian ul li button {
+  width: 11rem;
+  height: 3.5rem;
+  border: none;
+  color: #fff;
+  background-color: #ff8a00;
+  font-size: 1.4rem;
+}
+.nian ul li:nth-of-type(2) {
+  color: #fff;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  line-height: 1.3rem;
+}
+.nian ul li:nth-of-type(2) p:nth-of-type(1) {
+  font-size: 1.4rem;
+}
+.nian ul li:nth-of-type(3) {
+  float: right;
+  margin-top: -3rem;
+}
+.nian ul #x {
+  position: absolute;
+  top: 0;
+  left: 0.3rem;
+  color: #ccc;
+  width: 1rem;
+  height: 1rem;
+}

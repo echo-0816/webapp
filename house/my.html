@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/my.css">
+</head>
+
+<body>
+    <header>
+        <img src="./image/my/bg1.png" alt="">
+        <div>
+            <img src="./image/my/urse2.png" alt="">
+            <button>登录</button>
+        </div>
+        <div>
+            <img src="./image/my/urse.png" alt="">
+            <p>我的</p>
+        </div>
+        <div>
+            <img src="./image/my/down.png" alt="">
+            <p>APP</p>
+        </div>
+
+    </header>
+
+
+    <footer>
+        <ul>
+            <li>
+                <img src="./image/my/icon1.png" alt="">
+                我关注的房源
+            </li>
+            <li>
+                <img src="./image/my/icon2.png" alt="">
+                我关注的小区
+            </li>
+            <li>
+                <img src="./image/my/icon3.png" alt="">
+                我关注的新房
+            </li>
+            <li>
+                <img src="./image/my/icon4.png" alt="">
+                我的看房记录
+            </li>
+        </ul>
+    </footer>
+
+</body>
+<script>
+    window.onload = function () {
+        function setRem() {
+            var ui_w = 320;
+            var c_w = document.documentElement.clientWidth || document.body.clientWidth;
+            document.getElementsByTagName('html')[0].style.fontSize = (c_w / ui_w) * 10 + 'px';
+        }
+        setRem();
+        window.onresize = setRem;
+    }
+</script>
+
+</html>
