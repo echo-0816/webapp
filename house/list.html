@@ -394,7 +394,7 @@
 
     </footer>
 </body>
-<script src="./js/jquery-3.5.1.js"></script>
+<script src="./js/zepto.js"></script>
 <script src="./js/touch-0.2.14.min.js"></script>
 <script>
     window.onload = function () {
@@ -432,25 +432,25 @@
     var click3 = document.getElementsByClassName('click3');
     var click4 = document.getElementsByClassName('click4');
 
-    touch.on(click1, 'tap', function () {
+    touch.on(click1, 'touchstart', function () {
         $('.click1').parents('nav').siblings('.nav1').toggle();
         $('.click2').parents('nav').siblings('.nav2').hide();
         $('.click3').parents('nav').siblings('.nav3').hide();
         $('.click4').parents('nav').siblings('.nav4').hide();
     })
-    touch.on(click2, 'tap', function () {
+    touch.on(click2, 'touchstart', function () {
         $('.click2').parents('nav').siblings('.nav2').toggle();
         $('.click1').parents('nav').siblings('.nav1').hide();
         $('.click3').parents('nav').siblings('.nav3').hide();
         $('.click4').parents('nav').siblings('.nav4').hide();
     })
-    touch.on(click3, 'tap', function () {
+    touch.on(click3, 'touchstart', function () {
         $('.click3').parents('nav').siblings('.nav3').toggle();
         $('.click2').parents('nav').siblings('.nav2').hide();
         $('.click1').parents('nav').siblings('.nav1').hide();
         $('.click4').parents('nav').siblings('.nav4').hide();
     })
-    touch.on(click4, 'tap', function () {
+    touch.on(click4, 'touchstart', function () {
         $('.click4').parents('nav').siblings('.nav4').toggle();
         $('.click2').parents('nav').siblings('.nav2').hide();
         $('.click3').parents('nav').siblings('.nav3').hide();
